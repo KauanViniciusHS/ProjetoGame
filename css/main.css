@@ -67,9 +67,11 @@ main{
     text-transform: uppercase;
 }
 
-.Menu ul li:hover{
-    color: #daa520
+.Menu ul li a:hover{
+    color: #daa520;
+    border-bottom: 2px solid #daa520;
 }
+
 .Menu {
     padding-left: 0;
     display: flex;
