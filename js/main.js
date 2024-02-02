@@ -1,1 +1,5 @@
 $('.Cem').slick();
+
+// dasdddddddddddddddddda
+// 
+// dasdsa
