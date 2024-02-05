@@ -1,5 +1,1 @@
-$('.Cem').slick();
-
-// dasdddddddddddddddddda
-// 
-// dasdsa
+$('.Slide').slick();
