@@ -1,10 +1,14 @@
-.body{
+*{
+    box-sizing: border-box;
+}
+
+html, body{
     height: 100%;
     width: 100%;
     margin: 0 auto;
 }
 
-.HeaderPrincipal{
+.Homepage{
     width: 100%;
     height: 100%;
     background-color: #671910;
@@ -14,7 +18,7 @@
 .GameMenu{
     width: 300px;
     height: 500px;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
@@ -25,10 +29,25 @@
 }
 
 .Logo{
-    padding: 10px;
     width: 100%;
     position: relative;
     align-items: center;
     justify-content: center;
     display: flex;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px; /* Alterado de 40px para 20px */
+}
+
+.Logo ul li{
+    list-style: none;
+    display: block;
+    width: 100%;
 }
