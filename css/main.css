@@ -44,14 +44,14 @@ html, body{
 
 .Logo img{
     aspect-ratio: 1;
-    width: 200px;
+    width: 100px;
     height: auto;
 }
 
 .Botoes{
     display: flex;
     flex-direction: column;
-    gap: .5rem;
+    gap: .8rem;
 
     /* pega o maior, ou 300px ou 20%, 
     então o menor tamanho do botao vai ser 300px 
@@ -61,7 +61,7 @@ html, body{
 
 button{
     width: 100%;
-    height: 60px;
+    height: 50px;
     background-color: var(--marroon);
 
     border: 0;
@@ -73,4 +73,16 @@ button{
 
 button:hover{
     background-color: var(--marroon-lighter);
+}
+
+.Contato{
+    align-self: flex-end;
+    height: 20px;
+    background-color: var(--marroon);
+
+    border: 0;
+    color: var(--off-white);
+
+    border-radius: 5px;
+    font-size: 1rem;
 }
