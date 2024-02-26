@@ -1,5 +1,16 @@
+/* import font from google */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     box-sizing: border-box;
+
+    /* apply font to whole project */
+    font-family: "Poppins", sans-serif;
+
+    /* color vars */
+    --marroon: #671910;
+    --marroon-lighter: #71231a;
+    --off-white: #fefefe;
 }
 
 html, body{
@@ -11,49 +22,55 @@ html, body{
 .Homepage{
     width: 100%;
     height: 100%;
-    background-color: #671910;
+    background-color: var(--off-white);
     margin: 0 auto;
 }
 
 .GameMenu{
-    width: 300px;
-    height: 500px;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.Logo{
-    width: 100%;
-    position: relative;
-    align-items: center;
-    justify-content: center;
     display: flex;
+    flex-direction: column;
+    align-self: center;
+
+    height: 100%;
+    min-width: 300px;
+
+    align-items: center;
+    /* justify-content: center; */
+
+    padding-top: 10%;
+    gap: 0.5rem;    
 }
 
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 0px; /* Alterado de 40px para 20px */
+
+.Logo img{
+    aspect-ratio: 1;
+    width: 200px;
+    height: auto;
 }
 
-.Logo ul li{
-    list-style: none;
-    display: block;
-    width: 100%;
+.Botoes{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+    /* pega o maior, ou 300px ou 20%, 
+    então o menor tamanho do botao vai ser 300px 
+    mas pode ser maior */
+    width: max(300px, 20%);
 }
 
 button{
     width: 100%;
     height: 60px;
-    background-color: aliceblue;
+    background-color: var(--marroon);
+
+    border: 0;
+    color: var(--off-white);
+
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+button:hover{
+    background-color: var(--marroon-lighter);
 }
