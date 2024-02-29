@@ -7,6 +7,7 @@ I Kauan Vinicius will be the developer/programmer of this project.
 - [ ] Direcionamento de cada botão para seus respectivos lugares;
 - [ ] Deixa uma nota de roda-pé com o contato para suporte;
 - [ ] Adicionar feature de troca de temas;
+- [ ] Terminar a lista no JSON;
 
 ## LISTA ESPECIFICA DO QUE PRECISA ADICIONAR:
 - [ ] Ao clicar no botão "Jogar" redirecionar para a area do jogo onde irá aparecer...
